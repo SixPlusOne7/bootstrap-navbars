@@ -1,0 +1,4 @@
+/* Make sure nav links are white */
+.navbar a, .navbar .nav-link {
+  color: white !important;
+}
