@@ -21,10 +21,44 @@
 </head>
 
 <body>
+    <!-- Navbar 1: The Boardroom Kailua -->
+    <div class="container-fluid px-0 boardroom" style="background-color:#133B40;">
+    <nav class="navbar navbar-expand-lg bg-gradient">
+        <div class="container d-flex justify-content-between align-items-center">
+
+        <!-- Left: Instagram icon -->
+        <ul class="nav justify-content-start">
+            <li class="nav-item">
+            <a href="https://instagram.com" class="navbar-brand text-white">
+                <i class="bi bi-instagram fs-3"></i>
+            </a>
+            </li>
+        </ul>
+
+        <!-- Center: Logo -->
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+            <a class="navbar-brand" href="#">
+                <img src="experience-bootstrap-navbars-board-room-logo.png" alt="The Boardroom Kailua" height="60">
+            </a>
+            </li>
+        </ul>
+
+        <!-- Right: Menu button -->
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+            <button class="btn btn-dark">Menu</button>
+            </li>
+        </ul>
+
+        </div>
+    </nav>
+    </div>
+
     <!-- Morning Brew Navbar (two rows) -->
 
     <!-- Row 1: Centered Logo -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light morningbrew">
     <div class="container py-2">
         <div class="mx-auto navbar-nav">
         <a class="navbar-brand" href="#">
@@ -35,7 +69,7 @@
     </nav>
 
     <!-- Row 2: Menu items -->
-    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light sticky-top morningbrew">
     <div class="container">
         <div class="mx-auto navbar-nav">
         <div class="nav-item border-1 border-top border-dark active border-3">Home</div>
@@ -48,4 +82,103 @@
         </div>
     </div>
     </nav>
+
+    <!-- Navbar 3: Buzz’s -->
+    <div class="container-fluid px-0 buzzs" style="background-color: rgb(48,73,95); color: white;">
+    <nav class="navbar navbar-expand-lg bg-gradient">
+        <div class="container py-3">
+
+        <!-- Left: LUNCH | DINNER | DRINKS & PUPU -->
+        <ul class="nav justify-content-start align-items-center flex-grow-1">
+            <li class="nav-item"><h4 class="mb-0 px-2"><a class="nav-link px-0 text-white" href="#">LUNCH</a></h4></li>
+            <li class="nav-item"><h4 class="mb-0 px-2"><a class="nav-link px-0 text-white" href="#">DINNER</a></h4></li>
+            <li class="nav-item"><h4 class="mb-0 px-2"><a class="nav-link px-0 text-white" href="#">DRINKS &amp; PUPU</a></h4></li>
+        </ul>
+
+        <!-- Center: Buzz’s Logo -->
+        <ul class="nav justify-content-center align-items-center">
+            <li class="nav-item">
+            <a class="navbar-brand mx-3" href="#">
+                <img src="experience-bootstrap-navbars-buzzs-logo.png" alt="Buzz’s" height="70">
+            </a>
+            </li>
+        </ul>
+
+        <!-- Right: ABOUT | LOCATION | SHOP | Cart icon -->
+        <ul class="nav justify-content-end align-items-center flex-grow-1">
+            <li class="nav-item"><h4 class="mb-0 px-2"><a class="nav-link px-0 text-white" href="#">ABOUT</a></h4></li>
+            <li class="nav-item"><h4 class="mb-0 px-2"><a class="nav-link px-0 text-white" href="#">LOCATION</a></h4></li>
+            <li class="nav-item"><h4 class="mb-0 px-2"><a class="nav-link px-0 text-white" href="#">SHOP</a></h4></li>
+            <li class="nav-item px-2">
+            <a class="nav-link text-white fs-4" href="#" aria-label="Cart"><i class="bi bi-cart"></i></a>
+            </li>
+        </ul>
+
+        </div>
+    </nav>
+    </div>
+
+    <!-- WOD4: Aloha Beer -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light aloha">
+    <div class="container">
+
+        <!-- Left: brand logo -->
+        <a class="navbar-brand" href="#">
+        <img src="experience-bootstrap-navbars-aloha-beer-logo.png" alt="Aloha Beer" width="110">
+        </a>
+
+        <!-- Center: nav links -->
+        <div class="nav justify-content-center flex-grow-1">
+        <a class="nav-link" href="#">Locations &amp; Menus</a>
+        <a class="nav-link" href="#">Events</a>
+        <a class="nav-link" href="#">Brewery</a>
+        <a class="nav-link shop-link" href="#">Shop</a> <!-- special color -->
+        </div>
+
+        <!-- Right: account / search / cart -->
+        <div class="nav justify-content-end">
+        <a class="nav-link" href="#">Account</a>
+        <a class="nav-link" href="#" aria-label="Search">
+            <i class="bi bi-search"></i> Search
+        </a>
+        <a class="nav-link" href="#" aria-label="Cart">
+            <i class="bi bi-cart3"></i> Cart
+        </a>
+        </div>
+
+    </div>
+    </nav>
+
+    <!-- WOD5: Duke's Waikiki -->
+    <div class="container-fluid dukes" style="background-color:#017574; color:white;">
+    <nav class="navbar">
+
+        <div class="container d-flex align-items-center justify-content-between">
+
+        <!-- Left: brand -->
+        <ul class="nav justify-content-start">
+            <li class="nav-item">
+            <a class="navbar-brand" href="#">
+                <img src="experience-bootstrap-navbars-dukes-logo.png" alt="Duke's Waikiki" width="200">
+            </a>
+            </li>
+        </ul>
+
+        <!-- Right: menu -->
+        <ul class="nav justify-content-end align-items-center">
+            <li class="nav-item"><a class="nav-link" href="#">MENUS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">DUKE</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">SHOP</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">JOIN OUR TEAM</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+            <li class="nav-item">
+            <a class="nav-link order-link" href="#">ORDER TAKEOUT &amp; DELIVERY</a>
+            </li>
+        </ul>
+
+        </div>
+
+    </nav>
+    </div>
+
 </body>
