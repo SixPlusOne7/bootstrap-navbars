@@ -30,20 +30,4 @@
 .buzzs .nav-item { list-style: none; }         /* ensure no bullets */
 
 /* optional hover underline for clarity */
-.buzzs .nav-link:hover { text-decoration: underline; }
-
-/* WOD4: Aloha Beer */
-.aloha .nav-link {
-  color: #000;                    /* bootstrap light navbar default; keep readable */
-}
-.aloha .nav-link:hover { text-decoration: underline; }
-.aloha .shop-link { color: #EDC601; font-weight: 600; }  /* special Shop color */
-
-/* WOD5: Duke's Waikiki */
-.dukes .nav-link {
-  color: #fff !important;       /* white on teal background */
-  font-weight: 600;
-}
-.dukes .nav-link:hover { text-decoration: underline; }
-.dukes .order-link { color: #F1A228 !important; }  /* special highlight */
-
+  .buzzs .nav-link:hover { text-decoration: underline; }
